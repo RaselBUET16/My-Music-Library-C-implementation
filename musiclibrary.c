@@ -130,7 +130,7 @@ int main(void)
             Node* duplicate=checkDuplicate(head,songName);
             if(duplicate!=NULL){
                 songNameFound(songName);
-                printf("\n%s\n%s\n%s\n",duplicate->artist,duplicate->songName,duplicate->genre);
+                printf("\n%s\n%s\n%s\n",duplicate->songName,duplicate->artist,duplicate->genre);
             }
             else{
                 songNameNotFound(songName);
