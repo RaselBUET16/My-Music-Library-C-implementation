@@ -44,89 +44,178 @@ be an empty) linked list.
 
 Commands are I (insert), D (delete), S (search by song name),
 P (print), Q (quit).
-Command --> P
-2
+
+Command --> P 
+
 The music library is empty.
+
 Command --> I
+
 Song name --> The Shade
+
 Artist --> Metric
+
 Genre --> Rock
+
+
 Command --> I
+
 Song name --> Heads Will Roll
+
 Artist --> Yeah Yeah Yeahs
+
 Genre --> Punk
+
+
 Command --> I
+
 Song name --> Bad Boys Need Love Too
+
 Artist --> Bahamas (Afie Jurvanen)
+
 Genre --> Folk
+
+
 Command --> P
+
 My Personal Music Library:
+
 Bad Boys Need Love Too
+
 Bahamas (Afie Jurvanen)
+
 Folk
+
+
 Heads Will Roll
+
 Yeah Yeah Yeahs
+
 Punk
+
+
 The Shade
+
 Metric
+
 Rock
+
+
 Command --> I
+
 Song name --> Heads Will Roll
+
 Artist --> Yeah Yeah Yeahs
+
 Genre --> Punk
+
+
 A song with the name 'Heads Will Roll' is already in the music library.
+
 No new song entered.
+
+
 Command --> I
+
 Song name --> Adult Diversion
+
 Artist --> Alvvays
+
 Genre --> Pop
+
+
 Command --> P
+
 My Personal Music Library:
-3
+
+
 Adult Diversion
+
 Alvvays
+
 Pop
+
+
 Bad Boys Need Love Too
+
 Bahamas (Afie Jurvanen)
+
 Folk
+
+
 Heads Will Roll
+
 Yeah Yeah Yeahs
+
 Punk
+
+
 The Shade
+
 Metric
+
 Rock
+
+
 Command --> S
+
 Enter the name of the song to search for --> Bad Boys Need Love Too
+
 The song name 'Bad Boys Need Love Too' was found in the music library.
+
 Bad Boys Need Love Too
+
 Bahamas (Afie Jurvanen)
+
 Folk
+
+
 Command --> S
+
 Enter the name of the song to search for --> Young Blood
+
 The song name 'Young Blood' was not found in the music library.
+
+
 Command --> D
+
 Enter the name of the song to be deleted --> The Shade
+
 Deleting a song with name 'The Shade' from the music library.
+
+
 Command --> P
+
 My Personal Music Library:
+
 Adult Diversion
+
 Alvvays
+
 Pop
+
+
 Bad Boys Need Love Too
+
 Bahamas (Afie Jurvanen)
+
 Folk
-4
+
+
 Heads Will Roll
+
 Yeah Yeah Yeahs
+
 Punk
+
+
 Command --> Q
+
 Deleting a song with name 'Adult Diversion' from the music library.
+
 Deleting a song with name 'Bad Boys Need Love Too' from the music library.
+
 Deleting a song with name 'Heads Will Roll' from the music library.
+
 The music library is empty.
-The automarker may use multiple test cases for each part, and if this is the case, the marks for this
-part will be split among the test cases. The test cases used for marking may or may not be the same
-as the test cases that are made available to you. The deadline of (11:59 p.m. on Saturday, April 9,
-2022) is strictly enforced, so avoid last minute submissions.
-Stay Safe and Good Luck!
-5
+
